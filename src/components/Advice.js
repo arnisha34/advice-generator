@@ -12,7 +12,7 @@ export default function Advice({generateAdvice, setNewAdvice}) {
         <AdviceInner>
 						<h5>Advice #{generateAdvice.slip.id}</h5>
 						<p>“{generateAdvice.slip.advice}”</p>
-						<img src="./images/pattern-divider-desktop.svg" alt="divider" />
+						<img src="./images/pattern-divider-desktop.svg" alt="divider"/>
         </AdviceInner>
 				<AdviceGenerator onClick={regenerateAdvice}>
 					<img src="./images/icon-dice.svg" alt="dice"/>

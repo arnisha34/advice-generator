@@ -13,8 +13,6 @@ function App() {
     .then(data => setGenerateAdvice(data))
   },[newAdvice])
 
-  console.log(generateAdvice)
-
   return (
     <div className="App">
       <Advice generateAdvice={generateAdvice} setGenerateAdvice={setGenerateAdvice} setNewAdvice={setNewAdvice}/>
