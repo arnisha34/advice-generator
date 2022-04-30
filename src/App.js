@@ -10,7 +10,8 @@ function App() {
   useEffect(() => {
     fetch("https://api.adviceslip.com/advice")
     .then(res => res.json())
-    .then(data => setGenerateAdvice(data))
+    .then(data => setGenerateAdvice(data.slip))
+    .catch(err => console.log(err))
   },[newAdvice])
 
   return (

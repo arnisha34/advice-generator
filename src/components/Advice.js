@@ -10,8 +10,8 @@ export default function Advice({generateAdvice, setNewAdvice}) {
   return (
     <AdviceContainer>
         <AdviceInner>
-						<h5>Advice #{generateAdvice.slip.id}</h5>
-						<p>“{generateAdvice.slip.advice}”</p>
+						<h5>Advice #{generateAdvice.id}</h5>
+						<p>“{generateAdvice.advice}”</p>
 						<img src="./images/pattern-divider-desktop.svg" alt="divider"/>
         </AdviceInner>
 				<AdviceGenerator onClick={regenerateAdvice}>
