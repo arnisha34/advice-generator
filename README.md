@@ -1,3 +1,6 @@
+<h1>Advice Generator</h1>
+<img width="804" alt="Screen Shot 2022-04-29 at 11 59 14 PM" src="https://user-images.githubusercontent.com/970143/166095513-c4fa5f0e-a2d4-42d8-a2c1-7f7360b7ad56.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
